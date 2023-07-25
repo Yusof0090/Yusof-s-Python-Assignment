@@ -1,0 +1,10 @@
+########True##########
+Names={"Yusof","Bozorg","Danish","Nazir"}
+version2={"Soraj","samir","roman",}
+version3=Names.isdisjoint(version2)
+print(version3)
+#######false#########
+Names={"Yusof","Bozorg","Danish","Nazir"}
+version2={"Soraj","samir","roman","Nazir"}
+version3=Names.isdisjoint(version2)
+print(version3)
